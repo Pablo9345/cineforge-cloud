@@ -1,1 +1,89 @@
+# ═══════════════════════════════════════════════════════════
+# CÁPSULA 49: LA SEÑALIZACIÓN DE TRÁNSITO
+# Tema: El control del sistema sobre la elección consciente
+# Duración objetivo: 56 segundos
+# ═══════════════════════════════════════════════════════════
 
+id: "capsula_49"
+titulo: "La Señalización de Tránsito"
+categoria: "control_social"
+duracion_target: 56
+semana: "semana_01"
+
+bloques:
+  - id: 1
+    tipo: gancho
+    duracion: 5
+    voz: "es-ES-AlvaroNeural"
+    tono: "intrigante"
+    texto: >
+      ¿Por qué obedeces señales que nadie te obliga a seguir...
+      incluso cuando sabes que podrías avanzar?
+    visual:
+      tipo: broll
+      busqueda_pexels: "traffic light red night empty street"
+      transicion_entrada: fade_in
+
+  - id: 2
+    tipo: revelacion
+    duracion: 13
+    voz: "es-ES-AlvaroNeural"
+    tono: "analitico"
+    texto: >
+      No se trata de hacerte hacer algo malo. Se trata de impedirte
+      hacer algo correcto por ti mismo. El sistema no necesita policía.
+      Solo necesita que te vigiles tú mismo.
+    visual:
+      tipo: broll
+      busqueda_pexels: "surveillance camera city night"
+      transicion_entrada: cut
+
+  - id: 3
+    tipo: pregunta
+    duracion: 8
+    voz: "es-ES-AlvaroNeural"
+    tono: "pausado"
+    texto: >
+      ¿Qué señales rojas sociales te detienen...
+      cuando podrías avanzar por ti mismo?
+    visual:
+      tipo: camara_negra
+      texto_en_pantalla: true
+      transicion_entrada: fade_black
+
+  - id: 4
+    tipo: hack
+    duracion: 18
+    voz: "es-ES-AlvaroNeural"
+    tono: "complice"
+    texto: >
+      El control perfecto no necesita barrotes. Tiene señales que tú
+      mismo obedeces. La próxima vez que frenes en rojo en una calle
+      vacía, observa: ¿frenaste por seguridad o por condicionamiento?
+    visual:
+      tipo: broll
+      busqueda_pexels: "empty road night car driving"
+      transicion_entrada: cut
+
+  - id: 5
+    tipo: cierre
+    duracion: 6
+    voz: "es-ES-AlvaroNeural"
+    tono: "sentencioso"
+    texto: >
+      La prisión más efectiva no tiene vigilancia:
+      te vigilas tú mismo.
+    visual:
+      tipo: logo_outro
+      transicion_entrada: fade_out
+
+musica:
+  archivo: "ambient_dark_01.mp3"
+  volumen: 0.15
+  ducking: true
+
+subtitulos:
+  estilo: "karaoke"
+  fuente: "Montserrat-Bold"
+  color: "#FFFFFF"
+  sombra: true
